@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+            <link rel="stylesheet" href="app.js">
+        <title>All Shoping</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <ul class="indicator">
+                    <li data-filter="All" class="active"><a href="#">All</a></li>
+                    <li data-filter="Blazer"><a href="#">Blazer</a></li>
+                    <li data-filter="Watch"><a href="#">Watcha</li>
+                        <li data-filter="Shoes"><a href="#">Shoes</a></li>
+                        <li data-filter="Mobile"><a href="#">Mobile</a></li>
+                        <li data-filter="Accessories"><a href="#">Accessories</a></li>
+                    </ul>
+                    <div class="contenair">
+                        <input style="font-family: bootstrap-icons;" placeholder="&#xF52A" type="search" name="" class="form-control poute" id="input" onkeyup="">
+                    </div>
+                    <div class="filter-condition">
+                        <span>Views As a</span>
+                        <select name id="select">
+                            <option value="Default">Default</option>
+                            <option value="LowToHigh">Low to high</option>
+                            <option value="HighToLow">High to low</option>
+                        </select>
+                    </div>
+                </header>
+
+                <div class="product-field">
+                    <ul class="items">
+                        <li class="mb-5" data-category="">
+                            <picture>
+                                <img  src="images/montreee.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                 <strong>Watch</strong>
+                                 <span>  Lorem, ipsum dolor sit amet consectetur.</span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4 class="ye azz">€45.78</h4>
+                        </li>
+                        <li class="lire" data-category="">
+                            <picture>
+                                <img src="images/blazer.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Blazer</strong>
+                                <span> Lorem, ipsum dolor sit amet consectetu   </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€35.78</h4>
+                        </li>
+                        <li class="lire" data-category="">
+                            <picture>
+                                <img src="images/montree.3.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Watch</strong>
+                                <span> Lorem, ipsum dolor sit amet consectetur    </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€40.78</h4>
+                        </li>
+                        <li class="lire" data-category="">
+                            <picture>
+                                <img src="images/blaser.2.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Blazer</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€42.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/montree.2.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Watch</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€46.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/blazer.3.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Blazer</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€55.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/timbarlin.4.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur          
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€25.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/inphone.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Mobile</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€20.78</h4>
+                        </li>
+                        <div class="d-flex mt-5">
+                        <li class="hard" data-category="">
+                            <picture>
+                                <img src="images/timebarlin.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>$15.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/timbarlin.2.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>$22.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/telephone.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Mobile</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€33.78 </h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/chaud.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€45</h4>
+                        </li>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <li class="hard" data-category="">
+                            <picture>
+                                <img src="images/New.time.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€45.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.montre1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Watch</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€22</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.telephone.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Mobile</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€33.8 </h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.time.3.webp" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€55.78</h4>
+                        </li>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <li class="hard" data-category="">
+                            <picture>
+                                <img src="images/New.blazer.1.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Blazer</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€55.88</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.portatable.2.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Mobile</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>$22.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.montre.3.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Watch</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€13.78 </h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images//New.blazer.3.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>$25.78</h4>
+                        </li>
+                    </div>
+                    <div class="d-flex mt-5">
+                        <li class="hard" data-category="">
+                            <picture>
+                                <img src="images/New.chemise.1.avif" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Chemise</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€15.18</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/new.montre.4.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Watch</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+            
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€10.78</h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.chemise.2.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Watch</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€12.78 </h4>
+                        </li>
+                        <li data-category="">
+                            <picture>
+                                <img src="images/New.portable.3.jpeg" alt="logo">
+                            </picture>
+                            <div class="detail">
+                                <p class="icon">
+                                    <span><i class="far fa-heart"></i></span>
+                                    <span><i class="far fa-share-square"></i></span>
+                                    <span><i class="fas fa-shopping-basket"></i></span>
+                                </p>
+                                <strong>Shoes</strong>
+                                <span>
+                                    Lorem, ipsum dolor sit amet consectetur
+                                </span>
+                                <small>Buy Now</small>
+                            </div>
+                            <h4>€15.58</h4>
+                        </li>
+                    </div>
+                    </ul>
+                </div>
+            </main>
+        </body>
+    </html>
